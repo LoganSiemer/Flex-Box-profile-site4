@@ -1,0 +1,35 @@
+.button {
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    background-color: #FF0000;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0px 140px 0px 140px;
+    position: relative;
+}
+
+.button:hover {
+    background-color: #DC0B0B;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.myPic {
+    flex: 2;
+    border: 2px solid black;
+}
+
+.myBioDetais {
+    flex: 1;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
