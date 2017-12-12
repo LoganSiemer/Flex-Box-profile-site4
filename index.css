@@ -20,6 +20,21 @@
     justify-content: center;
 }
 
+.grid {
+	max-width: 350px;
+	display: grid;
+	grid-template-rows: 100px 100px 100px;
+	grid-template-columns: 100px 100px 100px;
+	grid-gap: 20px 15px;
+	background-color: blue;
+	border-radius: 20px;
+	border-style: none;
+	align-items: center;
+	justify-content: center;
+	margin-left: 10px;
+	padding-left: 35px;
+}
+
 .myPic {
     flex: 2;
     border: 2px solid black;
